@@ -1,7 +1,7 @@
 
 # CliApp
 
-The application is a demo cli console application used to execute CRUD commands in a console.The application is is composed of 3 projects.
+This a demo cli console application used to execute CRUD commands in a terminal.The application is composed of 3 projects.
 |    Name        |Technology                 |Purpose                                               |
 |----------------|---------------------------|------------------------------------------------------|
 |CliApp.Command  |`.NET Core 3.1`            | Console Application                                  |
@@ -14,7 +14,7 @@ The application is a demo cli console application used to execute CRUD commands 
 > Make sure that you have .NET Core 3.1 installed otherwise install it from [Here](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 - In the **CliApp.Core** project run the command **dotnet ef update databse** in order to apply the Migrations  
 - In the **CliApp.Tests** directory to test the project run the command **dotnet test** or simple run the tests in the Visual Studio Test Explorer.
-- Build the **CLiApp.Core**, then go to the bin folder all the way to the generated dll's EX: `CliApp.Command\bin\Debug\netcoreapp3.1` and see if a **persons.dll** has been generated. To test the CLI run the command **dotnet persons.dll --help** to get the list of commands.
+- Build the **CLiApp.Core**, then go to the bin folder all the way to the generated dll's EX: `CliApp.Command\bin\Debug\netcoreapp3.1` and see if a **persons.dll** has been generated. To test the CLI run the command(in the folder containing all the dll's) **dotnet persons.dll --help** to get the list of all commands.
 
 ## Functionality
 get all commands
