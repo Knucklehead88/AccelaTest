@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CliApp.Command": {
+      "commandName": "Project",
+      "commandLineArgs": "persons.exe Add 5 5"
+    }
+  }
+}
